@@ -55,8 +55,7 @@ body {
 
 #formWrapper {
    display: block;
-   padding-bottom: 2rem;
-   padding-top: 1rem;
+
 }
 
 #wrapper {
@@ -67,11 +66,17 @@ body {
 #inputWrapper {
     display: flex;
     justify-content: center;
-    padding: 3px;
+    align-items: center;
+    padding: 9px;
+    border: 4px solid skyblue;
+    overflow: auto;
 }
 
 #centerThis {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 a:visited {
