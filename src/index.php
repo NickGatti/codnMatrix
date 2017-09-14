@@ -9,6 +9,8 @@
     <meta name="description" content="Common interview question, print a given matrix in spiral form">
     <meta author="Nick Gatti">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="../img/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="../img/favicon/favicon-16x16.png" sizes="16x16" />
     <link rel="stylesheet" href="css/styles.css">
     <title>Codn.io - Matrix Puzzle</title>
 </head>
@@ -19,12 +21,16 @@
         <h4>Print a given matrix (limit 3 - 10 in size) in sprial form:</h4>
         <?php include 'matrix.php'; ?>
         <div id="formWrapper">
-            <form method="POST">
+            <div id="centerThis">
                 <p>Input a number from 3 - 10</p>
                 <p>Square matrix until someone challenges me to write a new input field for it (PHP *sadface*)</p>
                 <p>Constrained from 3 to 10 in size to prevent things from blowing up</p>
-                <input type="text" name="number" placeholder="matrix size" />
-                <input type="submit" name="create" value="Create" onclick="runFn();" />
+            </div>
+            <form method="POST">
+                <div id="inputWrapper">
+                    <input type="text" name="number" placeholder="matrix size" />
+                    <input type="submit" name="create" value="Create" onclick="runFn();" />
+                </div>
             </form>
         </div>
         <blockquote>
