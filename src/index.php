@@ -42,7 +42,6 @@
             <li>Output in 3 forms; the answer, the non-mutated original matrix and html pushed back with PHP and solved by Javascript</li>
             <li>Exercise taken from my teachers at school (commonly asked interview question)</li>
             <li>Form submission sends matrix length to PHP backend which builds the matrix in html form and sends it back where javascript takes care of the rest</li>
-            <li>Webpacked with babel for ES6</li>
             <li>Github link to example code:
                 <br> <a href="https://github.com/NickGatti/codnMatrix" target="_blank">GITHUB PROJECT</a></li>
         </ul>
