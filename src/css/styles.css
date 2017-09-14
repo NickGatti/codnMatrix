@@ -1,0 +1,84 @@
+html {
+    font-size: 18px;
+    background: whitesmoke;   
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 2px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+    background: skyblue;
+    width: 100%;
+}
+
+.cell {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    background: deepskyblue;
+    width: 75px;
+}
+
+#matrix {
+    margin: 1rem;
+    border: 1px solid black;
+    background: lightgrey;
+}
+
+#original {
+    background: orange;
+    overflow: auto;
+    padding: 2px;
+}
+
+#answer {
+    background: orange;
+    overflow: auto;
+    padding: 4px;
+}
+
+#outputWrap {
+    border: 2px solid black;
+    margin: 1rem;
+}
+
+#formWrapper {
+   display: flex;
+   justify-content: center;
+   padding-bottom: 2rem;
+   padding-top: 1rem;
+}
+
+#wrapper {
+    margin: 8px;
+    padding: 8px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: salmon;
+}
