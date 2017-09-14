@@ -23,7 +23,7 @@
         <div id="formWrapper">
             <div id="centerThis">
                 <p>Input a number from 3 - 10</p>
-                <p>Square matrix until someone challenges me to write a new input field for it (PHP *sadface*)</p>
+                <p>Square matrix until someone challenges me to write a new input field for it</p>
                 <p>Constrained from 3 to 10 in size to prevent things from blowing up</p>
             </div>
             <form method="POST">
